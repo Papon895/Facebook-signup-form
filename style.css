@@ -1,0 +1,276 @@
+body {
+   margin: 0;
+   font-family: Arial, Sans-Serif;
+}
+/*======Common styling start=======*/
+.w-20 {
+   width: 20%;
+   float: left;
+   box-sizing: border-box;
+}
+.w-80 {
+   width: 80%;
+   float: left;
+   box-sizing: border-box;
+}
+.w-45 {
+   width: 40%;
+   float: left;
+   box-sizing: border-box;
+}
+.w-10 {
+   width: 14%;
+   box-sizing: border-box;
+   float: left;
+}
+.w-50 {
+   width: 50% !important;
+   float: left;
+   overflow: hidden;
+}
+/*=======Common styling End=======*/
+
+         /*----------------------*/
+        /*----header area start---*/
+         /*----------------------*/
+.container {
+   width: 85%;
+   margin: auto;
+   overflow: hidden;
+}         
+.header-area {
+   background: #3a5995;
+   color: #ffffff;
+   padding: 10px 0 0 0;
+   box-sizing: border-box;
+}  
+.header-area .facebook-logo img {
+   width: 200px;
+   margin-left: -13px;
+}
+.header-area .facebook-logo {
+   margin-top: 18px;
+   width: ;
+}
+
+
+.header-area .login-form {
+   overflow: hidden;
+   box-sizing: border-box;
+   margin-right: -25px;
+}
+
+
+.header-area .login-form .email-area, 
+.header-area .login-form .password {
+   width: 90%;
+}
+.header-area form {
+   float: right;
+   overflow: hidden;
+}
+.header-area .w-45.spacing {
+   padding-left: -20px;
+}
+.header-area .w-10.w10-gap {
+   padding-right: 
+}
+.header-area lebel,
+.header-area input {
+   display: block;
+}
+.header-area lebel {
+   font-size: 14px;
+   font-weight: bold;
+}
+.header-area input[type="text"],
+.header-area input[type="password"] {
+   box-sizing: border-box;
+   padding: ;
+   width: 100%;
+   border: none;
+}
+.header-area input {
+   margin: 4px 0 3px 0;
+   width: ;
+   border-radius: 2px;
+   
+}
+.header-area .password {
+   margin-right: -50px;
+   margin-bottom: 5px;
+}  
+.header-area .login-btn {
+   margin-top: 21px;
+   box-sizing: border-box;
+}
+.header-area .login-btn input {
+   font-weight: bold;
+   color: #ffffff;
+   background: #4067b1;
+   padding: 3px 6px;
+   font-size: 12px;
+   border: 1px solid #294688;
+}
+.header-area .password a {
+   font-size: 12px;
+   color: lightgrey;
+   text-decoration: none;
+}
+         /*----------------------*/
+        /*----header area end---*/
+         /*----------------------*/
+         
+         /*----------------------*/
+        /*----main area start---*/
+         /*----------------------*/
+.main-area {
+   background-image: linear-gradient(#fefefe, #d8d8e2);
+   padding: 15px 0 0 0;
+   
+}         
+.main-area .reg-form {
+   box-sizing: border-box;
+}
+.
+.main-area .facebook-line h3 {
+   margin: 0 ;
+   line-height: 29px;
+   color: #173457;
+   font-size: 18px;
+   font-family: Arial;
+}      
+.main-area .facebook-line {
+   margin: 25px 0 0 0;
+   
+}
+.main-area .connect-image img {
+   width: 445px;
+   margin: 0 0 0 4px;
+}
+
+.main-area .w-50.gap {
+   padding: 0 0 0 50px;
+   box-sizing: border-box;
+}
+
+.main-area .form-heading h1 {
+   margin: 0;
+   margin-top: 12px;
+   font-size: 35px;
+   color: #35342e;
+}
+.main-area .form-heading h4 {
+   margin: 0;
+   margin: 9px 0 17px 0;
+   color: #35342e;
+}
+.main-area .reg-form input[type="text"],
+.main-area .reg-form input[type= "password"],
+.main-area .reg-form input[type= "email"] {
+   display: block;
+   width: 100%;
+   padding: 8px 0 8px 10px;
+   font-size: 18px;
+   margin-bottom: 10px;
+   border-radius: 7px;
+   border: 2px solid #e0e5ed;
+   box-sizing: border-box;
+}
+::placeholder {
+  color: #9d9d9c;
+}  
+.main-area .input-text {
+   overflow: hidden;
+}
+.main-area .input-text .input-gap {
+   padding-right: 10px;
+   box-sizing: border-box;
+}
+.main-area .birthday-text {
+   margin: 17px 0 7px 0;
+   font-weight: bold;
+   color: #717074;
+   font-size: 17px;
+   
+}
+.main-area .birthday-select select {
+   padding: 4px 0 4px 7px;
+   border: 1px solid #c2c5ce;
+   background: #ffffff;
+   box-sizing: border-box;
+
+}
+.main-area .birthday-select {
+   overflow: hidden;
+}
+.main-area .birthday-select .float-select {
+   float: left;
+   box-sizing: border-box;
+}
+#day, #month {
+   margin-right: -5px;
+}
+.main-area .birthday-select .right-a {
+   overflow: hidden;
+   padding-left: 20px;
+   box-sizing: border-box;
+   margin-top: -6px;
+}
+.main-area .birthday-select .right-a a {
+   text-decoration: none;
+   font-size: 12px;
+   margin: 0;
+   color: #40589b;
+   
+}
+.main-area .gender-text {
+   margin: 5px 0 7px 0;
+   font-weight: bold;
+   color: #717074;
+   font-size: 17px;
+}
+.main-area .gender-select label {
+   font-size: 18px;
+}
+.main-area p {
+   color: #717074;
+   font-size: 14px;
+}
+.main-area p a {
+   text-decoration: none;
+   color: #40589b;
+   font-weight: bold;
+}
+.main-area .sign-up-btn {
+   margin-top: 20px;
+   margin-bottom: 35px;
+}
+.main-area .sign-up-btn input {
+   background-image: linear-gradient(#65a954, #5d8747);
+   color: #ffffff;
+   font-weight: bold;
+   width: 50%;
+   height: 40px;
+   border-radius: 5px;
+   border: 1px solid  #416535;
+   font-size: 20px;
+   box-shadow: inset 1px 1px 1px #fff,
+				inset -1px -1px 1px #555;
+}
+.main-area .create-page p {
+   color: #6f7066;
+   font-size: 16px;
+}
+.main-area .create-page a {
+   font-weight: bold;
+   color: #3e587b;
+}
+.main-area .create-page {
+   margin-bottom: 0;
+}
+         /*----------------------*/
+        /*----main area end---*/
+         /*----------------------*/
+         
+         
